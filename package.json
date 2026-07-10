@@ -1,20 +1,14 @@
 {
   "name": "rasanusantarabot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "WhatsApp API Gateway RasaNusantara",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "axios": "^1.16.1",
-    "express": "^5.2.1",
-    "mysql2": "^3.22.3",
-    "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": "^1.34.7"
+    "@whiskeysockets/baileys": "^6.7.9",
+    "express": "^4.19.2",
+    "qrcode-terminal": "^0.12.0"
   }
 }
