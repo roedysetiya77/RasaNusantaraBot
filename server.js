@@ -44,7 +44,7 @@ async function connectToWhatsApp() {
         sock = makeWASocket({
             auth: state,
             version: version, 
-            printQRInTerminal: false, // Dimatikan karena kita pakai pairing code
+            printQRInTerminal: true, // Dimatikan karena kita pakai pairing code
             browser: Browsers.ubuntu('Chrome'),
             connectTimeoutMs: 60000, 
             defaultQueryTimeoutMs: 0,
